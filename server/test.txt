@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAndRuMQjLS5lBF8eUSLyI2niETNavtibs",
+    authDomain: "foodtruckfans-52fb4.firebaseapp.com",
+    projectId: "foodtruckfans-52fb4",
+    storageBucket: "foodtruckfans-52fb4.appspot.com",
+    messagingSenderId: "609612018430",
+    appId: "1:609612018430:web:66ce160763013667cb6baf",
+    measurementId: "G-8EFZ8459SM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
